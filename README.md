@@ -1,30 +1,8 @@
-# node-tdd-base
+# deltaSequencer
 
-The most basic test-driven-development environment for node and Docker. Fork this repo to begin your real work.
+A sequencer based on applying changes to a base pattern.
 
-Requires that you are running Docker.
-
-Bring up your editor in one window on one side of the screen.
-
-Bring up a terminal window on the other side of the screen.
-
-In the terminal window, run:
-
-```
-docker compose run dev
-```
-
-Any time you edit a source file in the editor, the app will be killed, the terminal screen will clear, linter run, unit tests run, and the app executed again.
-
-If the lint or unit tests fail, it will wait until you change a file again.
-
-This lets you truly start with test-driven-development, or at the very least give you the tightest possible save/test/run loop time.
-
-## Fork It
-
-Fork this repo to start your own project. You probably want to delete everything in the README.md up to and including here.
-
-## Running Your App
+## Running
 ```
 docker compose run app
 ```
