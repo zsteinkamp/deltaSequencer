@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "mocha": "^9.2.2",
-    "nodemon": "^2.0.14"
+    "nodemon": "^2.0.22"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
